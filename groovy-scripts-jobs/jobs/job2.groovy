@@ -1,4 +1,4 @@
-// job1.groovy
+// job2.groovy
 node {
     stage('Preparation') {
         echo "Starting demo pipeline..."
@@ -16,7 +16,7 @@ node {
     }
 
     stage('Build') {
-        echo "Building the project..."
+        echo "Building the project #2..."
         // Dummy build command - replace with your build tool
         sh 'echo "Compiling source..."'
         sh 'mkdir -p build && echo "Hello Jenkins!" > build/output.txt'
