@@ -1,4 +1,4 @@
-# groovy_project
+# AI-GROOVY_PROJECT
 groovy-scripts-project/
 ├── Jenkinsfile                      # Pipeline script
 ├── jobs/
